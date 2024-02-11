@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>AK Business Card</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="card">
+<header class="header">
+<img src="images/profile.png" alt="Profile" class="header-profile-img" />
+<div class="header-profile">
+<h1>Andrzej Kowal</h1>
+<div>IT Tech & Junior Web Developer</div>
+</div>
+</header>
+
+<section class="info">
+<img src="images/hero.png" alt="Info" class="info-picture" />
+<div class="info-content">
+<h2>About Me</h2>
+<h3 class="info-headline">I Am a <span>Web Developer</span> based in Paris</h3>
+<p>
+Hi! I am a <strong>IT Tech & Junior Web Developer</strong>, and I'm very passionate and dedicated to my work. With
+<strong>10 years experience</strong> as a professional IT Tech, I have acquired the skills and
+knowledge necessary to make your project a success.
+</p>
+<p>
+I find the most satisfaction in seeing the finished product do everything for you that it was created to do.
+</p>
+
+<img src="images/signature.png" alt="Signature" class="info-signature" />
+
+<div class="info-contact">
+<a href="#" class="info-contact-btn" id="textBtn">
+<img src="images/icon-telegram.svg" alt="Telegram" />
+Text me!
+</a>
+
+<a href="https://facebook.com" class="info-contact-social"><img src="images/icon-facebook.svg" alt="Facebook" /></a>
+<a href="https://instagram.com" class="info-contact-social"><img src="images/icon-instagram.svg" alt="Instagram" /></a>
+<a href="https://twitter.com/" class="info-contact-social"><img src="images/icon-twitter.svg" alt="Twitter" /></a>
+</div>
+</div>
+</section>
+</div>
+
+<script>
+document.getElementById("textBtn").addEventListener("click", function(event) {
+event.preventDefault();
+alert("Text message functionality coming soon!");
+});
+</script>
+</body>
+</html>
